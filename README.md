@@ -32,7 +32,7 @@ run this code `yarn run seed`
 
 run this code `yarn dev`
 
-# Sign-up API
+# Sign-up API - post
 
 endpoint `http://localhost:PORT/api/sign-up`
 
@@ -45,7 +45,7 @@ body
 }
 ```
 
-# Login API
+# Login API - post
 
 when you are logged in to the application you will create a token, just used it on headers with the name `authorization`
 endpoint `http://localhost:PORT/api/login`
@@ -61,10 +61,10 @@ body
 
 just users logged as `admin` are able to do this.
 
-endpoint `http://localhost:PORT/api/admin/authors` - create
-endpoint `http://localhost:PORT/api/admin/authors` - read
-endpoint `http://localhost:PORT/api/admin/authors/:id` - update
-endpoint `http://localhost:PORT/api/admin/authors/:id` - delete
+endpoint `http://localhost:PORT/api/admin/authors` - create - post
+endpoint `http://localhost:PORT/api/admin/authors` - read - get
+endpoint `http://localhost:PORT/api/admin/authors/:id` - update - put
+endpoint `http://localhost:PORT/api/admin/authors/:id` - delete - delete
 
 body
 ```json
@@ -78,10 +78,10 @@ body
 
 just users logged as `admin` are able to do this.
 
-endpoint `http://localhost:PORT/api/admin/articles` - create
-endpoint `http://localhost:PORT/api/admin/articles` - read
-endpoint `http://localhost:PORT/api/admin/articles/:id` - update
-endpoint `http://localhost:PORT/api/admin/articles/:id` - delete
+endpoint `http://localhost:PORT/api/admin/articles` - create - post
+endpoint `http://localhost:PORT/api/admin/articles` - read - get
+endpoint `http://localhost:PORT/api/admin/articles/:id` - update - put
+endpoint `http://localhost:PORT/api/admin/articles/:id` - delete - delete
 
 body
 ```json
@@ -95,11 +95,11 @@ body
 }
 ```
 
-# List article by category
+# List article by category -get
 
 endpoint `http://localhost:PORT/api/articles?category=slug`
 
-# Article detail
+# Article detail - get
 
 just users logged are able to read the body.
 
