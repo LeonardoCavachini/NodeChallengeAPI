@@ -62,8 +62,11 @@ body
 just users logged as `admin` are able to do this.
 
 endpoint `http://localhost:PORT/api/admin/authors` - create - post
+
 endpoint `http://localhost:PORT/api/admin/authors` - read - get
+
 endpoint `http://localhost:PORT/api/admin/authors/:id` - update - put
+
 endpoint `http://localhost:PORT/api/admin/authors/:id` - delete - delete
 
 body
@@ -79,8 +82,11 @@ body
 just users logged as `admin` are able to do this.
 
 endpoint `http://localhost:PORT/api/admin/articles` - create - post
+
 endpoint `http://localhost:PORT/api/admin/articles` - read - get
+
 endpoint `http://localhost:PORT/api/admin/articles/:id` - update - put
+
 endpoint `http://localhost:PORT/api/admin/articles/:id` - delete - delete
 
 body
