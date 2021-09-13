@@ -109,4 +109,4 @@ endpoint `http://localhost:PORT/api/articles?category=slug`
 
 just users logged are able to read the body.
 
-endpoint `http://localhost:PORT//api/articles/:id`
+endpoint `http://localhost:PORT/api/articles/:id`
